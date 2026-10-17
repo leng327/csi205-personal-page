@@ -3,18 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personal Webpage</title>
+  <title>leng327 | Learning Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
   <div class="page">
     <header class="site-header">
-      <h1>Personal Webpage</h1>
+      <h1>leng327</h1>
+      <p class="subtitle">Networking and distributed computing</p>
       <nav aria-label="Main">
         <ul class="nav-list">
           <li><a href="#about">About</a></li>
-          <li><a href="#interests">Interests</a></li>
+          <li><a href="#interests">Study topics</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
@@ -22,14 +23,29 @@
     <main id="main" tabindex="-1">
       <section id="about" aria-labelledby="about-heading">
         <h2 id="about-heading">About</h2>
+        <p>This is my learning portfolio for networking and distributed computing. It brings together coursework on Python networking, web deployment, distributed data processing and machine learning.</p>
       </section>
       <section id="interests" aria-labelledby="interests-heading">
-        <h2 id="interests-heading">Interests</h2>
+        <h2 id="interests-heading">Study topics</h2>
+        <ul>
+          <li>Network programming and protocols: TCP, UDP, DNS and HTTPS.</li>
+          <li>Distributed data processing: MapReduce and Apache Spark.</li>
+          <li>Machine learning workflows: preprocessing, regression and model evaluation.</li>
+        </ul>
       </section>
       <section id="projects" aria-labelledby="projects-heading">
         <h2 id="projects-heading">Projects</h2>
+        <h3>TCP and UDP video streaming</h3>
+        <p>A Python socket application that streams video over TCP and UDP, with frame validation, playback and packet analysis using Wireshark.</p>
+        <h3>Word count with Python, Hadoop and Spark</h3>
+        <p>Word-count implementations that connect Map and Reduce concepts with real Hadoop Streaming and Spark RDD jobs, using fixed tokenization and independently checked results.</p>
+        <h3>Wine quality regression with Spark MLlib</h3>
+        <p>A regression pipeline using the UCI Wine Quality dataset, training-side preprocessing, a fixed training/test split and comparison against a simple baseline.</p>
       </section>
     </main>
+    <footer class="site-footer">
+      <p><a href="https://github.com/leng327/csi205-personal-page">View the website source on GitHub</a></p>
+    </footer>
   </div>
 </body>
 </html>
